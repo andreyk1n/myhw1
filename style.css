@@ -71,18 +71,35 @@ header {
 
     width: 100%;
     height: 80vh;
-    background: url('./images/Rectangle\ 21\ copy.png') no-repeat;
+    /* background: url('./images/Rectangle\ 21\ copy.png') no-repeat; */
     background-position: right;
+}
+
+.triangle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.triangle-bottomright {
+	width: 0;
+	height: 0;
+	border-bottom: 400px solid #ff6d6d;; 
+	border-left: 300px solid transparent;
+}
+
+.platforms-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
 }
 
 .platforms-container {
     padding-left: 70px;
     padding-top: 120px;
     width: 40vw;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: flex-start;
+
     gap: 30px;
 }
 
@@ -103,6 +120,7 @@ header {
 }
 
 .features {
+    background-color: #ededed;
     width: 100%;
     height: 89vh;
     background: url('./images/Pen\ holder.png');
