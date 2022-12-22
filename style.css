@@ -29,6 +29,14 @@ header {
     opacity: 0.5;
 }
 
+.play-icon a {
+    transition-duration: .5s;
+}
+
+.play-icon a:hover {
+    color: rgb(70, 69, 69);
+}
+
 .try-btn {
     width: 170px;
     height: 50px;
@@ -36,6 +44,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+.try-btn:hover {
+    background-color: #f45151;
 }
 
 .try-btn a {
@@ -51,5 +65,39 @@ header {
     align-items: center;
     flex-direction: column;
     width: 40vw;
+}
 
+.platforms {
+
+    width: 100%;
+    height: 80vh;
+    background: url('./images/Rectangle\ 21\ copy.png') no-repeat;
+    background-position: right;
+}
+
+.platforms-container {
+    padding-left: 70px;
+    padding-top: 120px;
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.active {
+    font-size: 20px;
+    color:#ff6d6d;
+    letter-spacing: 3px;
+}
+
+.mini-title {
+    font-size: 40px;
+    /* line-height: 5px; */
+}
+
+.gray {
+    font-size: 18px;
+    color: gray;
 }
