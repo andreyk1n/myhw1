@@ -84,7 +84,7 @@ header {
 .triangle-bottomright {
 	width: 0;
 	height: 0;
-	border-bottom: 400px solid #ff6d6d;; 
+	border-bottom: 400px solid #ff6d6d; 
 	border-left: 300px solid transparent;
 }
 
@@ -166,4 +166,26 @@ header {
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 400px 0 0 300px;
+    border-color: transparent transparent transparent #ff6d6d;
+}
+
+.new-design {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.design-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50vw;
+    padding: 50px;
 }
