@@ -353,7 +353,7 @@ footer {
     .platforms-container {
         padding-left: 70px;
         padding-top: 120px;
-        width: 56vw;
+        width: 50vw;
         gap: 30px;
     }
 
@@ -377,7 +377,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 10px;
         width: 60vw;
         height: 35vh;
     }
@@ -425,6 +425,11 @@ footer {
         gap: 15px;
     }
 
+    .browser-img img {
+        width: 600px;
+
+    }
+
     .try-row2 input {
         width: 250px;
     }
@@ -445,7 +450,7 @@ footer {
         padding-left: 30px;
         padding-top: 120px;
         text-align: center;
-        width: 90vw;
+        width: 70vw;
         gap: 30px;
     }
 
@@ -485,7 +490,7 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 20px;
-        width: 90vw;
+        width: 60vw;
         padding: 50px;
     }
 
@@ -604,7 +609,7 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 20px;
-        width: 70vw;
+        width: 60vw;
         padding: 50px;
     }
 
